@@ -1,1 +1,4 @@
 # Trabalho-JavaScript
+Integrantes: Francisco Ruan Marques Ximenes
+             José Luiz Soares Costa
+Esse projeto, foi realizado para a construção de uma calculadora de índice de massa corporal(IMC). Foram utilizadas JavaScript, HTML e CSS, para desenvolvimento do projeto. Criamos uma div com a classe "Container" onde contém outras div's que geram Título,inputs para digitar e receber o valor do peso junto com a altura do usuário,depois criamos um botão com essa estrutura de cod: button type="submit" id="calcular"> Calcular. Dentro do script, usamos o querySelector para identificar o id de cada variável. Fizemos o calculo, sendo, peso/(altura*altura). Usamos os comandos de condiçoes para caso o valor tenha se adequado ao número do IMC correspondente. Ex: if (IMC < 18.5) { document.getElementById("aa").innerHTML = Seu IMC é: ${IMC.toFixed(2)} abaixo do peso; } Assim, se o valor for igual ou estiver entre os valores, ele será o grau que se encontra em (IMC).
